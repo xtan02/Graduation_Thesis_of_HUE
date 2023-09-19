@@ -16,9 +16,8 @@
 % 一级标题格式
 \ctexset{
   section={
-    format=\zihao{-3}\bfseries\sffamily,
-    %name={,、},
-    number=\arabic{section},
+	format=\zihao{-3}\bfseries\sffamily,
+	number=\arabic{section},
   }
 }
 
@@ -26,7 +25,6 @@
 \ctexset{
   subsection={
     format=\zihao{4}\bfseries\sffamily,
-    %name={,、},
     number=\arabic{section}.\arabic{subsection},
   }
 }
@@ -35,7 +33,6 @@
 \ctexset{
   subsubsection={
     format=\zihao{-4}\bfseries\sffamily,
-    %name={,、},
     number=\arabic{section}.\arabic{subsection}.\arabic{subsubsection},
   }
 }
@@ -76,7 +73,7 @@
 
 
 
-\graphicspath{{figures/}} 
+\graphicspath{{Figures/}} 
 
 
 

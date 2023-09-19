@@ -5,45 +5,24 @@
 	\includepdf{封面与承诺书/封面.pdf}
 	\includepdf{封面与承诺书/承诺书.pdf}
 	
-	\input{section/0_中文摘要.tex}\thispagestyle{empty}\newpage  
-	\input{section/1_英文摘要.tex}\thispagestyle{empty}\newpage  
-	\begin{center}\tableofcontents|\end{center}\thispagestyle{empty}\newpage  
+	\input{section/0_0中文摘要.tex}\thispagestyle{empty}\newpage  
+	\input{section/0_1英文摘要.tex}\thispagestyle{empty}\newpage  
+	\begin{center}\tableofcontents\end{center}\thispagestyle{empty}\newpage  
 	
 	\pagestyle{fancy}\setcounter{page}{1}
 	\fancyhead{}\fancyfoot[R]{}\fancyfoot[L]{}
 	
+	
+	\input{section/1_第一章.tex}
+	\input{section/2_第二章.tex}
+	\input{section/3_第三章.tex}
+	\input{section/4_第四章.tex}
+	\input{section/5_第五章.tex}\newpage
+	
 
-	\begin{center}\item\section{引言}\end{center}
+	\input{section/6_0参考文献.tex}\newpage
+	\input{section/6_1附录.tex}\newpage
+	\input{section/6_2致谢.tex}
 	
-	\subsection{问题背景}
-	
-	\subsection{问题提出}
-	
-	\subsection{问题分析}
-	
-	\begin{center}\item\section{文献综述}\end{center}
-	
-	\subsection{支持向量机}
-	
-	\subsection{决策树}
-	
-	\subsection{朴素贝叶斯}
-	
-	
-	\begin{center}\item\section{符号说明}\end{center}
-	
-	\begin{center}\item\section{实验设计}\end{center}
-	
-	\begin{center}\item\section{实验过程}\end{center}
-	
-	\begin{center}\item\section{数据分析}\end{center}
-	
-	\begin{center}\item\section{结论}\end{center}
-	
-	\newpage\noindent\section*{参考文献}
-	\addcontentsline{toc}{section}{参考文献} 
-	
-	
-	\newpage\noindent\section*{致谢}
-	\addcontentsline{toc}{section}{致谢}
+
 \end{document} 
